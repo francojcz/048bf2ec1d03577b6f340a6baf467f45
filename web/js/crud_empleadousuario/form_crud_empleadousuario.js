@@ -1,4 +1,4 @@
-var emplusu_password_valor_trae = '';
+﻿var emplusu_password_valor_trae = '';
 
 var ayuda_emplusu_usu_codigo = 'Id del usuario';
 var ayuda_emplusu_login = 'Login del usuario, min&iacute;mo 4 digitos ';
@@ -192,7 +192,7 @@ var crud_empleadousuario_gridpanel = new Ext.grid.GridPanel({
     }),
     listeners: {
         render: function(g){
-            g.getSelectionModel().selectRow(0);
+//            g.getSelectionModel().selectRow(0);
         },
         delay: 10
     },
